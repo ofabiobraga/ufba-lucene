@@ -78,7 +78,7 @@ If there's not registries related to your search term, an error message will be 
 
 
 
-#English Version
+### English Version 
 This is a basic project to understand how Apache Lucene works, built by __Fábio Braga__ and __Hugo Figueira__ from __Federal University of Bahia__. This is part of final grade for __MATC96__ course, taught by __Professor Frederico Durão__.
 
 
