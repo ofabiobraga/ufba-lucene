@@ -5,7 +5,7 @@ class Document:
         return
 
     ##
-    #
+    # Create an instance of a new document
     ###
     def create(self, id, title, artist, lyrics):
         indexDocument = LuceneDocument()
@@ -17,7 +17,7 @@ class Document:
         return indexDocument
 
     ##
-    #
+    # Generates a keywords according to document attributes
     ###
     def __keywords(self, id, title, artist, lyrics):
         keyword = str(id) + " " + str(title) + " " + str(artist) + " " + str(lyrics)

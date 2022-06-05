@@ -13,7 +13,7 @@ class Writer:
         return
 
     ##
-    #
+    # Create an instance of IndexWriter
     ###
     def create(self, path):
         self.directory = SimpleFSDirectory(Paths.get(path))

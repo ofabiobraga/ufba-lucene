@@ -11,7 +11,7 @@ class Searcher:
         return
     
     ##
-    #
+    # Create an instance of IndexSearcher
     ###
     def create(self, path):
         self.directory = DirectoryReader.open(SimpleFSDirectory(Paths.get(path)))
@@ -19,7 +19,7 @@ class Searcher:
         return IndexSearcher(self.directory)
 
     ##
-    #
+    # Generate parsed query
     ###
     def query(self, arguments):
         analyzer = StandardAnalyzer()

@@ -13,7 +13,8 @@ class Main:
         os.system('reset')
 
     ##
-    #
+    # The main function of the program. It shows the menu and
+    # call methods according to selected action
     ###
     def run(self):
         print("|=================================================|")
@@ -59,7 +60,7 @@ class Main:
         return
 
     ##
-    #
+    # Do a search for indexed documents
     ###
     def __search(self, query):
         indexSearcher = searcher.Searcher().create(INDEXES_DIRECTORY)
