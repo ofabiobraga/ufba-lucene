@@ -1,6 +1,6 @@
-# Lucene Workshop
+# Lucene Workshop Manual
 
-#Portuguese Version 
+### Portuguese Version 
 Esse é um projeto básico para entendimento sobre como o Apache Lucene funciona, escrito por __Fábio Bragada__ e __Hugo Figueira__, alunos da Universidade Federal da Bahia. Esse trabalho é parte da nota final para disciplina __MATC96__, lecionada pelo professor __Frederico Durão__ .
 
 ### Dependências
