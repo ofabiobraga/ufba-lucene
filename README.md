@@ -1,7 +1,7 @@
 # Lucene Workshop Manual
 
 ### Portuguese Version 
-Esse é um projeto básico para entendimento sobre como o Apache Lucene funciona, escrito por __Fábio Bragada__ e __Hugo Figueira__, alunos da Universidade Federal da Bahia. Esse trabalho é parte da nota final para disciplina __MATC96__, lecionada pelo professor __Frederico Durão__ .
+Esse é um projeto básico para entendimento sobre como o Apache Lucene funciona, escrito por __Fábio Braga__ e __Hugo Figueira__, alunos da Universidade Federal da Bahia. Esse trabalho é parte da nota final para disciplina __MATC96__, lecionada pelo professor __Frederico Durão__ .
 
 ### Dependências
 
@@ -47,8 +47,8 @@ Selecione a ação `i`, e em seguida digite `Title`, `Artist` e `Lyrics`  do seu
 |-------------------------------------------------|
 ```
 
-### Search for registries
-Once you already created a registry before, you can type `s` to search a registry by a term. You can fill multiple terms for you query separated by a blank space or comma, and all registries related to your registry will be returned.
+### Buscar por registros
+Uma vez que você criou registros, você pode digitar `s` para procurar registros de acordo com o termo fornecido. Você pode preencher múltiplos termos para sua busca separados por espaço em branco ou vírgula, e todos os registros relacionados a esses termos serão retornados.
 
 ```console
 |-------------------------------------------------|
@@ -65,7 +65,7 @@ Once you already created a registry before, you can type `s` to search a registr
 |-------------------------------------------------|
 ```
 
-If there's not registries related to your search term, an error message will be returned.
+Se não encontrar registro algum relacionado aos termos fornecidos, uma mensagem de erro será exibida:
 
 ```console
 |-------------------------------------------------|
