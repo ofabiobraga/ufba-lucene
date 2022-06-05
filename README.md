@@ -1,6 +1,6 @@
 # Lucene Workshop Manual
 
-### Portuguese Version 
+### Portuguese Version - PT-BR 
 Esse é um projeto básico para entendimento sobre como o Apache Lucene funciona, escrito por __Fábio Braga__ e __Hugo Figueira__, alunos da Universidade Federal da Bahia. Esse trabalho é parte da nota final para disciplina __MATC96__, lecionada pelo professor __Frederico Durão__ .
 
 ### Dependências
@@ -78,7 +78,7 @@ Se não encontrar registro algum relacionado aos termos fornecidos, uma mensagem
 
 
 
-### English Version 
+### English Version - EN-US
 This is a basic project to understand how Apache Lucene works, built by __Fábio Braga__ and __Hugo Figueira__ from __Federal University of Bahia__. This is part of final grade for __MATC96__ course, taught by __Professor Frederico Durão__.
 
 
