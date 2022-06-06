@@ -7,6 +7,8 @@ Esse é um projeto básico para entendimento sobre como o Apache Lucene funciona
 
 - Python3
 - Apache Lucene
+- PyLucene
+- Java JRE 11
 
 ### Como instalar
 
@@ -89,6 +91,9 @@ This is a basic project to understand how Apache Lucene works, built by __Fábio
 
 - Python3
 - Apache Lucene
+- PyLucene
+- Java JRE 11
+
 
 ### How to install
 
