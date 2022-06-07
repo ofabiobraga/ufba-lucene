@@ -1,11 +1,99 @@
-# Lucene Workshop
+# Lucene Workshop Manual
 
-This is a basic project to understand how Apache Lucene works, built by __Fábio Braga__ and __Hugo Figueira__ from __Federal University of Bahia__. This is part of final grade for __MATC96__ course, taught by __Professor Frederico Durão__.
+### Portuguese Version - PT-BR 
+Esse é um projeto básico para entendimento sobre como o Apache Lucene funciona, escrito por __Fábio Braga__ e __Hugo Figueira__, alunos da Universidade Federal da Bahia. Esse trabalho é parte da nota final para disciplina __MATC96__, lecionada pelo professor __Frederico Durão__ .
 
-### Dependencis
+### Dependências
 
 - Python3
 - Apache Lucene
+- PyLucene
+- Java JRE 11
+
+### Como instalar
+
+Após instalar o python3, você precisará instalar [lupyne](https://github.com/coady/lupyne) via comando `pip`:
+```console
+% pip install lupyne
+```
+
+### Executar código
+
+Com todas as dependências satisfeitas, só precisa rodar o comando abaixo:
+```console
+% python3 src/main.py
+```
+e o programa vai mostrar um menu com todas as ações possíveis: `insert`, `search` and `exit`.
+```console
+|=================================================|
+| Select an action:
+|-------------------------------------------------|
+| ➕ (i) Insert a new registry to Lucene
+| 🔍 (s) Search for a registry by a term on Lucene
+| 🚪 (e) Exit from program
+|=================================================|
+| What do you want to do?
+```
+
+### Insering novos registros
+Selecione a ação `i`, e em seguida digite `Title`, `Artist` e `Lyrics`  do seu registro. O mesmo será indexado pelo Lucene.
+
+```console
+|-------------------------------------------------|
+| ➕ Type data of the registry
+├─ Title: One Step Closer
+├─ Artist: Linkin Park
+├─ Lyrics: I cannot take this anymore I'm saying everything I've said before
+|-------------------------------------------------|
+|  ✅ Registry successfully added!
+|-------------------------------------------------|
+```
+
+### Buscar por registros
+Uma vez que você criou registros, você pode digitar `s` para procurar registros de acordo com o termo fornecido. Você pode preencher múltiplos termos para sua busca separados por espaço em branco ou vírgula, e todos os registros relacionados a esses termos serão retornados.
+
+```console
+|-------------------------------------------------|
+| 🔍 Type terms, you want to search:
+├─    linkin anymore
+|=================================================|
+| ✅ Your query returned 3 results
+|=================================================|
+[1]
+| id:            1654391946
+| title:         One Step Closer
+| artist:        Linkin Park
+| lyrics:        I cannot take this anymore I'm saying everything I've said before
+|-------------------------------------------------|
+```
+
+Se não encontrar registro algum relacionado aos termos fornecidos, uma mensagem de erro será exibida:
+
+```console
+|-------------------------------------------------|
+| 🔍 Type terms, you want to search:
+├─    ufba
+|-------------------------------------------------|
+| ❌ There's no records with the term 'ufba'.
+|=================================================|
+```
+
+
+
+### English Version - EN-US
+This is a basic project to understand how Apache Lucene works, built by __Fábio Braga__ and __Hugo Figueira__ from __Federal University of Bahia__. This is part of final grade for __MATC96__ course, taught by __Professor Frederico Durão__.
+
+
+
+
+
+### Dependencies
+
+- Python3
+- Apache Lucene
+- PyLucene
+- Java JRE 11
+
 
 ### How to install
 
