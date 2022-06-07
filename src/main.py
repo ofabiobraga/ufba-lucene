@@ -79,7 +79,7 @@ class Main:
         for i, indexDocument in enumerate(indexDocuments):
             fields = indexSearcher.doc(indexDocument.doc).getFields()
 
-            print("[" + str(i + 1) + "]")
+            print("[" + str(i + 1) + "]", "[Score: " + str(indexDocument.score) + "]")
             for field in fields:
                 if (field.name() != 'id'):
                     print("|", field.name() + ":\t", field.stringValue())
